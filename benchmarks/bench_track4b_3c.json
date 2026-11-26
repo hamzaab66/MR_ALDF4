@@ -1,0 +1,206 @@
+{
+  "T": 0.35,
+  "L": 8,
+  "comparisons": [
+    {
+      "label": "Weak metal    (U= 4.0t, d=0.00)",
+      "params": {
+        "U": 4.0,
+        "T": 0.35,
+        "delta": 0.0,
+        "L": 8
+      },
+      "track_4a": {
+        "n_lat": 1.0,
+        "Z_imp": 0.7978,
+        "Z_hot": 0.7899,
+        "Z_cold": 0.7944,
+        "D_imp": 0.17268,
+        "chi_AFM": 2.446,
+        "D_c_irr": 0.4811,
+        "lam_Eg": 0.0391,
+        "C0": 0.0045,
+        "wall_s": 5.55
+      },
+      "track_4b_nb3": {
+        "n_lat": 1.0,
+        "Z_imp": 0.7906,
+        "Z_hot": 0.7839,
+        "Z_cold": 0.7877,
+        "D_imp": 0.17109,
+        "chi_AFM": 2.141,
+        "D_c_irr_R2": 0.5195,
+        "n_div_lines_ED": 0,
+        "eig_norm_c0_ED": 0.5503,
+        "svd_c_err_R2": 0.1578,
+        "svd_c_err_R6": 0.0186,
+        "lam_Eg": 0.0328,
+        "C0": 0.0039,
+        "fit_err": 0.01019,
+        "wall_s": 1.95
+      },
+      "track_4b_nb4": {
+        "n_lat": 1.0,
+        "Z_imp": 0.7906,
+        "Z_hot": 0.7839,
+        "Z_cold": 0.7876,
+        "D_imp": 0.17111,
+        "chi_AFM": 2.14,
+        "lam_Eg": 0.0328,
+        "C0": 0.0039,
+        "fit_err": 0.00085,
+        "wall_s": 1.37
+      }
+    },
+    {
+      "label": "Corr. metal   (U= 8.0t, d=0.00)",
+      "params": {
+        "U": 8.0,
+        "T": 0.35,
+        "delta": 0.0,
+        "L": 8
+      },
+      "track_4a": {
+        "n_lat": 1.0,
+        "Z_imp": 0.3617,
+        "Z_hot": 0.3559,
+        "Z_cold": 0.3579,
+        "D_imp": 0.0877,
+        "chi_AFM": 1.056,
+        "D_c_irr": 0.005,
+        "lam_Eg": 0.1256,
+        "C0": 0.028,
+        "wall_s": 5.72
+      },
+      "track_4b_nb3": {
+        "n_lat": 1.0,
+        "Z_imp": 0.3966,
+        "Z_hot": 0.3961,
+        "Z_cold": 0.396,
+        "D_imp": 0.08205,
+        "chi_AFM": 0.516,
+        "D_c_irr_R2": 0.1435,
+        "n_div_lines_ED": 1,
+        "eig_norm_c0_ED": -0.7854,
+        "svd_c_err_R2": 0.3324,
+        "svd_c_err_R6": 0.0601,
+        "lam_Eg": 0.0238,
+        "C0": 0.804,
+        "fit_err": 0.26009,
+        "wall_s": 6.13
+      },
+      "track_4b_nb4": {
+        "n_lat": 1.0,
+        "Z_imp": 0.3966,
+        "Z_hot": 0.3961,
+        "Z_cold": 0.396,
+        "D_imp": 0.08206,
+        "chi_AFM": 0.516,
+        "lam_Eg": 0.0238,
+        "C0": 0.804,
+        "fit_err": 0.25948,
+        "wall_s": 5.14
+      }
+    },
+    {
+      "label": "Mott cross.   (U=12.0t, d=0.00)",
+      "params": {
+        "U": 12.0,
+        "T": 0.35,
+        "delta": 0.0,
+        "L": 8
+      },
+      "track_4a": {
+        "n_lat": 0.999996,
+        "Z_imp": 0.2721,
+        "Z_hot": 0.2691,
+        "Z_cold": 0.2705,
+        "D_imp": 0.05167,
+        "chi_AFM": 0.37,
+        "D_c_irr": -0.1554,
+        "lam_Eg": 0.042,
+        "C0": 0.7743,
+        "wall_s": 5.24
+      },
+      "track_4b_nb3": {
+        "n_lat": 1.0,
+        "Z_imp": 0.3064,
+        "Z_hot": 0.3033,
+        "Z_cold": 0.3048,
+        "D_imp": 0.06259,
+        "chi_AFM": 0.523,
+        "D_c_irr_R2": 0.0094,
+        "n_div_lines_ED": 2,
+        "eig_norm_c0_ED": -1.5371,
+        "svd_c_err_R2": 0.4179,
+        "svd_c_err_R6": 0.1354,
+        "lam_Eg": 0.0682,
+        "C0": 0.8028,
+        "fit_err": 0.6294,
+        "wall_s": 6.16
+      },
+      "track_4b_nb4": {
+        "n_lat": 1.0,
+        "Z_imp": 0.3065,
+        "Z_hot": 0.3034,
+        "Z_cold": 0.3049,
+        "D_imp": 0.06261,
+        "chi_AFM": 0.524,
+        "lam_Eg": 0.0685,
+        "C0": 0.8027,
+        "fit_err": 0.62856,
+        "wall_s": 5.09
+      }
+    },
+    {
+      "label": "Doped metal   (U= 8.0t, d=0.05)",
+      "params": {
+        "U": 8.0,
+        "T": 0.35,
+        "delta": 0.05,
+        "L": 8
+      },
+      "track_4a": {
+        "n_lat": 0.950003,
+        "Z_imp": 0.415,
+        "Z_hot": 0.4058,
+        "Z_cold": 0.4101,
+        "D_imp": 0.07424,
+        "chi_AFM": 1.242,
+        "D_c_irr": 0.0859,
+        "lam_Eg": 0.1067,
+        "C0": 0.0149,
+        "wall_s": 5.99
+      },
+      "track_4b_nb3": {
+        "n_lat": 0.950468,
+        "Z_imp": 0.4661,
+        "Z_hot": 0.4422,
+        "Z_cold": 0.4543,
+        "D_imp": 0.07968,
+        "chi_AFM": 1.881,
+        "D_c_irr_R2": 0.2417,
+        "n_div_lines_ED": 1,
+        "eig_norm_c0_ED": -0.1628,
+        "svd_c_err_R2": 0.2844,
+        "svd_c_err_R6": 0.0525,
+        "lam_Eg": 0.0754,
+        "C0": 0.0309,
+        "fit_err": 0.04325,
+        "wall_s": 6.13
+      },
+      "track_4b_nb4": {
+        "n_lat": 0.949745,
+        "Z_imp": 0.4499,
+        "Z_hot": 0.4289,
+        "Z_cold": 0.4384,
+        "D_imp": 0.09089,
+        "chi_AFM": 1.571,
+        "lam_Eg": 0.0688,
+        "C0": 0.0287,
+        "fit_err": 0.16053,
+        "wall_s": 7.14
+      }
+    }
+  ]
+}

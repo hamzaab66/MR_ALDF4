@@ -1,0 +1,61 @@
+{
+  "current_next_step": "COMPLETE (14/14)",
+  "steps": {
+    "1a": {
+      "status": "done",
+      "desc": "Patch mr_aldf_dlr.py with odd-symmetric poles + atomic/T=0.05t DMFT tests"
+    },
+    "1b": {
+      "status": "done",
+      "desc": "Wire DLRBasis into full 3D Level-IV dual-fermion loop (mr_aldf_level4_dlr.py)"
+    },
+    "1c": {
+      "status": "done",
+      "desc": "Run resumable low-T (T=0.05t, L=12) DLR Level-IV benchmark"
+    },
+    "2a": {
+      "status": "done",
+      "desc": "2x2 sublattice Neel AFM ordered-phase solver + magnetization test"
+    },
+    "2b": {
+      "status": "done",
+      "desc": "2x2 Nambu Eg (d-wave) SC ordered-phase solver + gap onset check"
+    },
+    "2c": {
+      "status": "done",
+      "desc": "Map ordered-phase crossover points (U, delta, T)"
+    },
+    "3a": {
+      "status": "done",
+      "desc": "Track IV-B symmetry-sector Lehmann ED impurity solver (Nb=4-5) + bath fit"
+    },
+    "3b": {
+      "status": "done",
+      "desc": "Extract Rank-R (R=4-6) SVD local vertices & detect multiple Gamma_c^irr lines"
+    },
+    "3c": {
+      "status": "done",
+      "desc": "Plug Track IV-B ED into Step 1 of Level-IV loop & cross-check vs Track IV-A"
+    },
+    "4a": {
+      "status": "done",
+      "desc": "gamma^(6) 3-particle contractions (atomic IV-A + source-field IV-B)"
+    },
+    "4b": {
+      "status": "done",
+      "desc": "Benchmark deep-Mott (U >> W, small delta) gamma^(6) spin-polaron corrections"
+    },
+    "5a": {
+      "status": "done",
+      "desc": "Multi-orbital Kanamori (U, J_H, Delta_cf) impurity + orbital-matrix dual loop"
+    },
+    "5b": {
+      "status": "done",
+      "desc": "Benchmark 2/3-orbital Hund's-metal & orbital-selective Mott (V2O3/RNiO3 proxy)"
+    },
+    "6a": {
+      "status": "done",
+      "desc": "Update MR_ALDF_Level4_Unified.tex, add new validation figure, recompile PDF & zip"
+    }
+  }
+}
