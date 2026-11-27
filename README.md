@@ -100,6 +100,5 @@ nev = solver.analytic_continuation_nevanlinna(n_nodes=10, dps=50)
 │   ├── fig3_level4_extension_600dpi.png
 │   └── fig_level4_five_pillars.{png,pdf}
 └── paper/
-    ├── MR_ALDF_Level4_Unified.pdf
-    └── MR_ALDF_Level4_Unified.tex
+    ├── MR_ALDF_4.pdf
 ```
