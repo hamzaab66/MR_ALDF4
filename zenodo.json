@@ -1,0 +1,30 @@
+{
+  "title": "Moriya-Renormalized Analytical Ladder Dual-Fermion Framework for the Three-Dimensional Hubbard Model Near the Mott Transition: Unified Levels III-IV Edition",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Abdulsater, H.",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "<p>Closed, UV-finite, non-singular, and fully deterministic O(N log N) QMC-free diagrammatic extension of single-site Dynamical Mean-Field Theory (DMFT) for the three-dimensional (3D) repulsive Hubbard and multi-orbital Kanamori models at finite temperature and small hole doping (&delta; = 1 &minus; n). This release bundles the Unified Levels III&ndash;IV manuscript (MR-ALDF-III/IV) together with the complete Python implementation, benchmark data, and validation figures.</p><ul><li><strong>Level III Core (<code>mr_aldf_level3.py</code>):</strong> Exact fourth-spectral-moment interpolating perturbation theory (mIPT-4) with correlated kinetic band shift, UV-tail-regularized rank-2 Ward-constrained local charge vertices detecting irreducible charge-vertex divergence lines, non-singular dual-denominator Moriya spin regularization via the Pauli sum rule, three-channel (s + c + pp) dual ladders with 3D O<sub>h</sub> E<sub>g</sub> (d-wave) pairing diagnostics, and Maki-Thompson dual current vertex corrections.</li><li><strong>Level IV Core (<code>mr_aldf_level4.py</code>):</strong> Smooth C<sup>&infin;</sup> dual-inverse Herglotz causality control, parameter-free microscopic 3D O(3) bosonic Self-Consistent Screening Approximation (SCSA), self-consistent TU-SBE E<sub>g</sub> pairing feedback, 2&times;2 C-parity-obeying Aslamazov-Larkin optical drag, and 50-digit Schur/Nevanlinna analytic continuation.</li><li><strong>Five Level-IV Production Pillars:</strong> (1) Sparse odd-symmetric Discrete Lehmann Representation (DLR) engine (<code>mr_aldf_dlr.py</code>, <code>mr_aldf_level4_dlr.py</code>) reaching T = 0.02t and L = 12 (N = 1728 sites); (2) explicit 2&times;2 sublattice N&eacute;el AFM and Nambu E<sub>g</sub> (d-wave) ordered-phase solvers (<code>mr_aldf_neel.py</code>, <code>mr_aldf_nambu_sc.py</code>); (3) Track IV-B symmetry-sector Lehmann exact diagonalization with Rank-6 SVD local vertices and multi-line charge-vertex divergence detection (<code>mr_aldf_ed.py</code>, <code>mr_aldf_ed_vertex.py</code>, <code>mr_aldf_track4b.py</code>); (4) deep-Mott three-particle &gamma;<sup>(6)</sup> spin-polaron and two-magnon contractions (<code>mr_aldf_gamma6.py</code>); and (5) M = 1, 2, 3 multi-orbital Kanamori solvers benchmarked on V<sub>2</sub>O<sub>3</sub> Hund's-metal, orbital-selective Mott, and RNiO<sub>3</sub> crystal-field oxide proxies (<code>mr_aldf_kanamori.py</code>).</li></ul><p><strong>AI Assistance Disclosure:</strong> This manuscript and its accompanying Python modules were developed collaboratively by the human author using Gemini 4 Neon for analytical derivation assistance, code implementation, and editing. The author takes full responsibility for the final content.</p>",
+  "keywords": [
+    "Hubbard model",
+    "Dual Fermion",
+    "Dynamical Mean-Field Theory (DMFT)",
+    "Mott transition",
+    "Theoretical condensed matter physics",
+    "Moriya regularization",
+    "Self-Consistent Screening Approximation (SCSA)",
+    "Discrete Lehmann Representation (DLR)",
+    "Exact diagonalization",
+    "Kanamori Hamiltonian",
+    "Hund's metal",
+    "Optical conductivity",
+    "Schur-Nevanlinna analytic continuation"
+  ],
+  "notes": "Accompanying GitHub repository: https://github.com/hamzaab66/MR_ALDF4. Developed with AI assistance (Gemini 4 Neon); all derivations, numerical implementations, and validation runs were directed and approved by the author."
+}
